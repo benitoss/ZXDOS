@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated   -->
+<!--     by the Xilinx ISE software.  Any direct editing or        -->
+<!--     changes made to this file may result in unpredictable     -->
+<!--     behavior or data corruption.  It is strongly advised that -->
+<!--     users do not edit the contents of this file.              -->
+<!--                                                               -->
+<!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.    -->
+
+<messages>
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;D:/Users/benit/Downloads/UnAmiga/ZXDos/Cores/msx1fpga-1.3/src/audio/YM2149.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;D:/Users/benit/Downloads/UnAmiga/ZXDos/Cores/msx1fpga-1.3/src/audio/dac_dsm2v.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;D:/Users/benit/Downloads/UnAmiga/ZXDos/Cores/msx1fpga-1.3/src/audio/i2s_transmitter.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;D:/Users/benit/Downloads/UnAmiga/ZXDos/Cores/msx1fpga-1.3/src/audio/jt51/jt51.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;D:/Users/benit/Downloads/UnAmiga/ZXDos/Cores/msx1fpga-1.3/src/audio/jt51/jt51_acc.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;D:/Users/benit/Downloads/UnAmiga/ZXDos/Cores/msx1fpga-1.3/src/audio/jt51/jt51_eg.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;D:/Users/benit/Downloads/UnAmiga/ZXDos/Cores/msx1fpga-1.3/src/audio/jt51/jt51_exp2lin.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;D:/Users/benit/Downloads/UnAmiga/ZXDos/Cores/msx1fpga-1.3/src/audio/jt51/jt51_exprom.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;D:/Users/benit/Downloads/UnAmiga/ZXDos/Cores/msx1fpga-1.3/src/audio/jt51/jt51_kon.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;D:/Users/benit/Downloads/UnAmiga/ZXDos/Cores/msx1fpga-1.3/src/audio/jt51/jt51_lfo.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;D:/Users/benit/Downloads/UnAmiga/ZXDos/Cores/msx1fpga-1.3/src/audio/jt51/jt51_lfo_lfsr.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;D:/Users/benit/Downloads/UnAmiga/ZXDos/Cores/msx1fpga-1.3/src/audio/jt51/jt51_lin2exp.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;D:/Users/benit/Downloads/UnAmiga/ZXDos/Cores/msx1fpga-1.3/src/audio/jt51/jt51_mmr.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;D:/Users/benit/Downloads/UnAmiga/ZXDos/Cores/msx1fpga-1.3/src/audio/jt51/jt51_mod.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;D:/Users/benit/Downloads/UnAmiga/ZXDos/Cores/msx1fpga-1.3/src/audio/jt51/jt51_noise.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;D:/Users/benit/Downloads/UnAmiga/ZXDos/Cores/msx1fpga-1.3/src/audio/jt51/jt51_noise_lfsr.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;D:/Users/benit/Downloads/UnAmiga/ZXDos/Cores/msx1fpga-1.3/src/audio/jt51/jt51_op.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;D:/Users/benit/Downloads/UnAmiga/ZXDos/Cores/msx1fpga-1.3/src/audio/jt51/jt51_pg.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;D:/Users/benit/Downloads/UnAmiga/ZXDos/Cores/msx1fpga-1.3/src/audio/jt51/jt51_phinc_rom.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1065" >&quot;<arg fmt="%s" index="1">D:/Users/benit/Downloads/UnAmiga/ZXDos/Cores/msx1fpga-1.3/src/audio/jt51/jt51_phinc_rom.v</arg>&quot; Line <arg fmt="%d" index="2">31</arg>. <arg fmt="%s" index="3">Include file found: &apos;D:/Users/benit/Downloads/UnAmiga/ZXDos/Cores/msx1fpga-1.3/src/audio/jt51/phinc_lut.vh&apos; in file &quot;D:/Users/benit/Downloads/UnAmiga/ZXDos/Cores/msx1fpga-1.3/src/audio/jt51/jt51_phinc_rom.v&quot; line 31
+</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;D:/Users/benit/Downloads/UnAmiga/ZXDos/Cores/msx1fpga-1.3/src/audio/jt51/jt51_phrom.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;D:/Users/benit/Downloads/UnAmiga/ZXDos/Cores/msx1fpga-1.3/src/audio/jt51/jt51_pm.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;D:/Users/benit/Downloads/UnAmiga/ZXDos/Cores/msx1fpga-1.3/src/audio/jt51/jt51_reg.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;D:/Users/benit/Downloads/UnAmiga/ZXDos/Cores/msx1fpga-1.3/src/audio/jt51/jt51_sh.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;D:/Users/benit/Downloads/UnAmiga/ZXDos/Cores/msx1fpga-1.3/src/audio/jt51/jt51_timers.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;D:/Users/benit/Downloads/UnAmiga/ZXDos/Cores/msx1fpga-1.3/src/audio/jt51/jt51_wrapper.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;D:/Users/benit/Downloads/UnAmiga/ZXDos/Cores/msx1fpga-1.3/src/audio/mixers.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;D:/Users/benit/Downloads/UnAmiga/ZXDos/Cores/msx1fpga-1.3/src/audio/vm2413/AttackTableMul.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;D:/Users/benit/Downloads/UnAmiga/ZXDos/Cores/msx1fpga-1.3/src/audio/vm2413/InterpolateMul.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;D:/Users/benit/Downloads/UnAmiga/ZXDos/Cores/msx1fpga-1.3/src/audio/vm2413/LinearTableMul.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;D:/Users/benit/Downloads/UnAmiga/ZXDos/Cores/msx1fpga-1.3/src/audio/vm2413/SumMixer.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;D:/Users/benit/Downloads/UnAmiga/ZXDos/Cores/msx1fpga-1.3/src/audio/vm2413/attacktable.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;D:/Users/benit/Downloads/UnAmiga/ZXDos/Cores/msx1fpga-1.3/src/audio/vm2413/controller.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;D:/Users/benit/Downloads/UnAmiga/ZXDos/Cores/msx1fpga-1.3/src/audio/vm2413/envelopegenerator.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;D:/Users/benit/Downloads/UnAmiga/ZXDos/Cores/msx1fpga-1.3/src/audio/vm2413/envelopememory.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;D:/Users/benit/Downloads/UnAmiga/ZXDos/Cores/msx1fpga-1.3/src/audio/vm2413/feedbackmemory.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;D:/Users/benit/Downloads/UnAmiga/ZXDos/Cores/msx1fpga-1.3/src/audio/vm2413/lineartable.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;D:/Users/benit/Downloads/UnAmiga/ZXDos/Cores/msx1fpga-1.3/src/audio/vm2413/operator.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;D:/Users/benit/Downloads/UnAmiga/ZXDos/Cores/msx1fpga-1.3/src/audio/vm2413/opll.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;D:/Users/benit/Downloads/UnAmiga/ZXDos/Cores/msx1fpga-1.3/src/audio/vm2413/outputgenerator.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;D:/Users/benit/Downloads/UnAmiga/ZXDos/Cores/msx1fpga-1.3/src/audio/vm2413/outputmemory.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;D:/Users/benit/Downloads/UnAmiga/ZXDos/Cores/msx1fpga-1.3/src/audio/vm2413/phasegenerator.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;D:/Users/benit/Downloads/UnAmiga/ZXDos/Cores/msx1fpga-1.3/src/audio/vm2413/phasememory.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;D:/Users/benit/Downloads/UnAmiga/ZXDos/Cores/msx1fpga-1.3/src/audio/vm2413/registermemory.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;D:/Users/benit/Downloads/UnAmiga/ZXDos/Cores/msx1fpga-1.3/src/audio/vm2413/sinetable.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;D:/Users/benit/Downloads/UnAmiga/ZXDos/Cores/msx1fpga-1.3/src/audio/vm2413/slotcounter.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;D:/Users/benit/Downloads/UnAmiga/ZXDos/Cores/msx1fpga-1.3/src/audio/vm2413/vm2413.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;D:/Users/benit/Downloads/UnAmiga/ZXDos/Cores/msx1fpga-1.3/src/audio/vm2413/voicememory.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;D:/Users/benit/Downloads/UnAmiga/ZXDos/Cores/msx1fpga-1.3/src/audio/vm2413/voicerom.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;D:/Users/benit/Downloads/UnAmiga/ZXDos/Cores/msx1fpga-1.3/src/clocks.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;D:/Users/benit/Downloads/UnAmiga/ZXDos/Cores/msx1fpga-1.3/src/cpu/t80.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;D:/Users/benit/Downloads/UnAmiga/ZXDos/Cores/msx1fpga-1.3/src/cpu/t80_alu.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;D:/Users/benit/Downloads/UnAmiga/ZXDos/Cores/msx1fpga-1.3/src/cpu/t80_mcode.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;D:/Users/benit/Downloads/UnAmiga/ZXDos/Cores/msx1fpga-1.3/src/cpu/t80_pack.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;D:/Users/benit/Downloads/UnAmiga/ZXDos/Cores/msx1fpga-1.3/src/cpu/t80_reg.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;D:/Users/benit/Downloads/UnAmiga/ZXDos/Cores/msx1fpga-1.3/src/cpu/t80a.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;D:/Users/benit/Downloads/UnAmiga/ZXDos/Cores/msx1fpga-1.3/src/joysticks/joydecoder.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;D:/Users/benit/Downloads/UnAmiga/ZXDos/Cores/msx1fpga-1.3/src/msx.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;D:/Users/benit/Downloads/UnAmiga/ZXDos/Cores/msx1fpga-1.3/src/msx_pack.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;D:/Users/benit/Downloads/UnAmiga/ZXDos/Cores/msx1fpga-1.3/src/peripheral/escci/escci.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;D:/Users/benit/Downloads/UnAmiga/ZXDos/Cores/msx1fpga-1.3/src/peripheral/escci/scc_wave.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;D:/Users/benit/Downloads/UnAmiga/ZXDos/Cores/msx1fpga-1.3/src/peripheral/exp_slot.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;D:/Users/benit/Downloads/UnAmiga/ZXDos/Cores/msx1fpga-1.3/src/peripheral/keyboard.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;D:/Users/benit/Downloads/UnAmiga/ZXDos/Cores/msx1fpga-1.3/src/peripheral/keymap.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;D:/Users/benit/Downloads/UnAmiga/ZXDos/Cores/msx1fpga-1.3/src/peripheral/memoryctl.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;D:/Users/benit/Downloads/UnAmiga/ZXDos/Cores/msx1fpga-1.3/src/peripheral/midiIntf.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;D:/Users/benit/Downloads/UnAmiga/ZXDos/Cores/msx1fpga-1.3/src/peripheral/pio.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;D:/Users/benit/Downloads/UnAmiga/ZXDos/Cores/msx1fpga-1.3/src/peripheral/ps2_iobase.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;D:/Users/benit/Downloads/UnAmiga/ZXDos/Cores/msx1fpga-1.3/src/peripheral/romnextor.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;D:/Users/benit/Downloads/UnAmiga/ZXDos/Cores/msx1fpga-1.3/src/peripheral/spi.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;D:/Users/benit/Downloads/UnAmiga/ZXDos/Cores/msx1fpga-1.3/src/peripheral/swioports.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;D:/Users/benit/Downloads/UnAmiga/ZXDos/Cores/msx1fpga-1.3/src/ram/dpram.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;D:/Users/benit/Downloads/UnAmiga/ZXDos/Cores/msx1fpga-1.3/src/ram/spram.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;D:/Users/benit/Downloads/UnAmiga/ZXDos/Cores/msx1fpga-1.3/src/ram/ssdram256Mb.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;D:/Users/benit/Downloads/UnAmiga/ZXDos/Cores/msx1fpga-1.3/src/rom/ipl_rom.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;D:/Users/benit/Downloads/UnAmiga/ZXDos/Cores/msx1fpga-1.3/src/shared/fifo.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;D:/Users/benit/Downloads/UnAmiga/ZXDos/Cores/msx1fpga-1.3/src/shared/multiboot.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;D:/Users/benit/Downloads/UnAmiga/ZXDos/Cores/msx1fpga-1.3/src/syn-qmxc6slx16/qmxc6slx16_top.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;D:/Users/benit/Downloads/UnAmiga/ZXDos/Cores/msx1fpga-1.3/src/video/dblscan.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;D:/Users/benit/Downloads/UnAmiga/ZXDos/Cores/msx1fpga-1.3/src/video/vdp18/vdp18_addr_mux.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;D:/Users/benit/Downloads/UnAmiga/ZXDos/Cores/msx1fpga-1.3/src/video/vdp18/vdp18_clk_gen.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;D:/Users/benit/Downloads/UnAmiga/ZXDos/Cores/msx1fpga-1.3/src/video/vdp18/vdp18_col_mux.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;D:/Users/benit/Downloads/UnAmiga/ZXDos/Cores/msx1fpga-1.3/src/video/vdp18/vdp18_core.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;D:/Users/benit/Downloads/UnAmiga/ZXDos/Cores/msx1fpga-1.3/src/video/vdp18/vdp18_cpuio.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;D:/Users/benit/Downloads/UnAmiga/ZXDos/Cores/msx1fpga-1.3/src/video/vdp18/vdp18_ctrl.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;D:/Users/benit/Downloads/UnAmiga/ZXDos/Cores/msx1fpga-1.3/src/video/vdp18/vdp18_hor_vert.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;D:/Users/benit/Downloads/UnAmiga/ZXDos/Cores/msx1fpga-1.3/src/video/vdp18/vdp18_pack-p.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;D:/Users/benit/Downloads/UnAmiga/ZXDos/Cores/msx1fpga-1.3/src/video/vdp18/vdp18_paletas_3bit_pack.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;D:/Users/benit/Downloads/UnAmiga/ZXDos/Cores/msx1fpga-1.3/src/video/vdp18/vdp18_palette.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;D:/Users/benit/Downloads/UnAmiga/ZXDos/Cores/msx1fpga-1.3/src/video/vdp18/vdp18_pattern.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;D:/Users/benit/Downloads/UnAmiga/ZXDos/Cores/msx1fpga-1.3/src/video/vdp18/vdp18_sprite.vhd&quot; into library work</arg>
+</msg>
+
+</messages>
+

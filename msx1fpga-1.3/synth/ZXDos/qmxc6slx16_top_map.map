@@ -1,0 +1,404 @@
+Release 14.7 Map P.20131013 (nt64)
+Xilinx Map Application Log File for Design 'qmxc6slx16_top'
+
+Design Information
+------------------
+Command Line   : map -intstyle ise -p xc6slx16-ftg256-2 -w -logic_opt off -ol
+high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off
+-pr off -lc off -power off -o qmxc6slx16_top_map.ncd qmxc6slx16_top.ngd
+qmxc6slx16_top.pcf 
+Target Device  : xc6slx16
+Target Package : ftg256
+Target Speed   : -2
+Mapper Version : spartan6 -- $Revision: 1.55 $
+Mapped Date    : Sun Sep 01 17:33:34 2019
+
+Mapping design into LUTs...
+Running directed packing...
+Running delay-based LUT packing...
+Updating timing models...
+WARNING:Pack:1653 - At least one timing constraint is impossible to meet because component delays alone exceed the constraint. A timing
+   constraint summary below shows the failing constraints (preceded with an Asterisk (*)). Please use the Timing Analyzer (GUI) or TRCE
+   (command line) with the Mapped NCD and PCF files to identify which constraints and paths are failing because of the component delays
+   alone. If the failing path(s) is mapped to Xilinx components as expected, consider relaxing the constraint. If it is not mapped to
+   components as expected, re-evaluate your HDL and how synthesis is optimizing the path. To allow the tools to bypass this error, set the
+   environment variable XIL_TIMING_ALLOW_IMPOSSIBLE to 1.
+
+
+   For more information about the Timing Analyzer, consult the Xilinx Timing Analyzer Reference manual; for more information on TRCE,
+   consult the Xilinx Command Line Tools User Guide "TRACE" chapter.
+INFO:Timing:3386 - Intersecting Constraints found and resolved.  For more 
+   information, see the TSI report.  Please consult the Xilinx Command Line 
+   Tools User Guide for information on generating a TSI report.
+INFO:Timing:3284 - This timing report was generated using estimated delay 
+   information.  For accurate numbers, please refer to the post Place and Route 
+   timing report.
+Number of Timing Constraints that were not applied: 4
+
+Asterisk (*) preceding a constraint indicates it was not met.
+   This may be due to a setup or hold violation.
+
+----------------------------------------------------------------------------------------------------------
+  Constraint                                |    Check    | Worst Case |  Best Case | Timing |   Timing   
+                                            |             |    Slack   | Achievable | Errors |    Score   
+----------------------------------------------------------------------------------------------------------
+* TS_pll_1_clkout3 = PERIOD TIMEGRP "pll_1_ | SETUP       |    -2.209ns| 276249.984ns|      44|       83871
+  clkout3" TS_clock_50M_i / 0.16 HIGH 50%   | HOLD        |     0.353ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+* TS_pll_1_clkout0 = PERIOD TIMEGRP "pll_1_ | SETUP       |    21.081ns|     8.532ns|       0|           0
+  clkout0" TS_clock_50M_i / 0.428571429 HIG | HOLD        |    -0.097ns|            |      16|        1536
+  H 50%                                     |             |            |            |        |            
+----------------------------------------------------------------------------------------------------------
+  TS_pll_1_clkout1 = PERIOD TIMEGRP "pll_1_ | SETUP       |     8.496ns|     3.170ns|       0|           0
+  clkout1" TS_clock_50M_i / 1.71428571 HIGH | HOLD        |     0.228ns|            |       0|           0
+   50%                                      |             |            |            |        |            
+----------------------------------------------------------------------------------------------------------
+  TS_clock_50M_i = PERIOD TIMEGRP "clock_50 | MINLOWPULSE |    15.000ns|     5.000ns|       0|           0
+  M_i" 20 ns HIGH 50%                       |             |            |            |        |            
+----------------------------------------------------------------------------------------------------------
+  TS_clock_sdram_s = PERIOD TIMEGRP "clock_ | MINPERIOD   |    11.170ns|     0.475ns|       0|           0
+  sdram_s" 11.645 ns HIGH 50%               |             |            |            |        |            
+----------------------------------------------------------------------------------------------------------
+  TS_clock_master_s = PERIOD TIMEGRP "clock | MINPERIOD   |    42.990ns|     3.570ns|       0|           0
+  _master_s" 46.56 ns HIGH 50%              |             |            |            |        |            
+----------------------------------------------------------------------------------------------------------
+  TS_clks_clock_vdp_s = PERIOD TIMEGRP "clk | SETUP       |    83.568ns|     9.553ns|       0|           0
+  s/clock_vdp_s" 93.121 ns HIGH 50%         | HOLD        |     0.198ns|            |       0|           0
+                                            | MINPERIOD   |    43.121ns|    50.000ns|       0|           0
+----------------------------------------------------------------------------------------------------------
+  TS_TO_the_msxvdphor_vert_bcnt_vert_q_0_LD | SETUP       |    43.810ns|     2.750ns|       0|           0
+  C = MAXDELAY TO TIMEGRP "TO_the_msxvdphor | HOLD        |     0.560ns|            |       0|           0
+  _vert_bcnt_vert_q_0_LDC" TS_clock_master_ |             |            |            |        |            
+  s DATAPATHONLY                            |             |            |            |        |            
+----------------------------------------------------------------------------------------------------------
+  TS_TO_the_msxvdphor_vert_bcnt_vert_q_6_LD | SETUP       |    43.888ns|     2.672ns|       0|           0
+  C = MAXDELAY TO TIMEGRP "TO_the_msxvdphor | HOLD        |     0.513ns|            |       0|           0
+  _vert_bcnt_vert_q_6_LDC" TS_clock_master_ |             |            |            |        |            
+  s DATAPATHONLY                            |             |            |            |        |            
+----------------------------------------------------------------------------------------------------------
+  TS_TO_i2sbitcount_4_LD = MAXDELAY TO TIME | MAXDELAY    |    44.226ns|     2.334ns|       0|           0
+  GRP "TO_i2sbitcount_4_LD" TS_clock_master |             |            |            |        |            
+  _s DATAPATHONLY                           |             |            |            |        |            
+----------------------------------------------------------------------------------------------------------
+  TS_clks_clock_3m_s = PERIOD TIMEGRP "clks | SETUP       |   129.283ns|    20.799ns|       0|           0
+  /clock_3m_s" 279.365 ns HIGH 50%          | HOLD        |     0.059ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  TS_sdram_clock_o = PERIOD TIMEGRP "sdram_ | N/A         |         N/A|         N/A|     N/A|         N/A
+  clock_o" 11.645 ns HIGH 50%               |             |            |            |        |            
+----------------------------------------------------------------------------------------------------------
+
+
+Derived Constraint Report
+Review Timing Report for more details on the following derived constraints.
+To create a Timing Report, run "trce -v 12 -fastpaths -o design_timing_report design.ncd design.pcf"
+or "Run Timing Analysis" from Timing Analyzer (timingan).
+Derived Constraints for TS_clock_50M_i
++-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+---
+----------+
+|                               |   Period    |       Actual Period       |      Timing Errors        |      Paths
+Analyzed       |
+|           Constraint          | Requirement
+|-------------+-------------|-------------+-------------|-------------+-------------|
+|                               |             |   Direct    | Derivative  |   Direct    | Derivative  |   Direct    |
+Derivative  |
++-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+---
+----------+
+|TS_clock_50M_i                 |     20.000ns|      5.000ns|  44199.997ns|            0|           60|            0|   
+  5909434|
+| TS_pll_1_clkout0              |     46.667ns|      8.532ns|          N/A|           16|            0|      5894662|   
+        0|
+| TS_pll_1_clkout1              |     11.667ns|      3.170ns|          N/A|            0|            0|        13281|   
+        0|
+| TS_pll_1_clkout3              |    125.000ns| 276249.984ns|          N/A|           44|            0|         1491|   
+        0|
++-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+---
+----------+
+
+Derived Constraints for TS_clock_master_s
++-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+---
+----------+
+|                               |   Period    |       Actual Period       |      Timing Errors        |      Paths
+Analyzed       |
+|           Constraint          | Requirement
+|-------------+-------------|-------------+-------------|-------------+-------------|
+|                               |             |   Direct    | Derivative  |   Direct    | Derivative  |   Direct    |
+Derivative  |
++-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+---
+----------+
+|TS_clock_master_s              |     46.560ns|      3.570ns|      2.750ns|            0|            0|            0|   
+       63|
+| TS_TO_the_msxvdphor_vert_bcnt_|     46.560ns|      2.750ns|          N/A|            0|            0|           22|   
+        0|
+| vert_q_0_LDC                  |             |             |             |             |             |             |   
+         |
+| TS_TO_the_msxvdphor_vert_bcnt_|     46.560ns|      2.672ns|          N/A|            0|            0|           22|   
+        0|
+| vert_q_6_LDC                  |             |             |             |             |             |             |   
+         |
+| TS_TO_i2sbitcount_4_LD        |     46.560ns|      2.334ns|          N/A|            0|            0|           19|   
+        0|
++-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+---
+----------+
+
+2 constraints not met.
+INFO:Timing:2761 - N/A entries in the Constraints List may indicate that the 
+   constraint is not analyzed due to the following: No paths covered by this 
+   constraint; Other constraints intersect with this constraint; or This 
+   constraint was disabled by a Path Tracing Control. Please run the Timespec 
+   Interaction Report (TSI) via command line (trce tsi) or Timing Analyzer GUI.
+
+
+INFO:Map:215 - The Interim Design Summary has been generated in the MAP Report
+   (.mrp).
+Running timing-driven placement...
+Total REAL time at the beginning of Placer: 1 mins 4 secs 
+Total CPU  time at the beginning of Placer: 1 mins 4 secs 
+
+Phase 1.1  Initial Placement Analysis
+Phase 1.1  Initial Placement Analysis (Checksum:fdc77b7b) REAL time: 1 mins 10 secs 
+
+Phase 2.7  Design Feasibility Check
+WARNING:Place:1206 - This design contains a global buffer instance,
+   <pll_1/clkout3_buf>, driving the net, <sdram_clock_o_OBUF>, that is driving
+   the following (first 30) non-clock load pins off chip.
+   < PIN: sdram_clock_o.O; >
+   This design practice, in Spartan-6, can lead to an unroutable situation due
+   to limitations in the global routing. If the design does route there may be
+   excessive delay or skew on this net. It is recommended to use a Clock
+   Forwarding technique to create a reliable and repeatable low skew solution:
+   instantiate an ODDR2 component; tie the .D0 pin to Logic1; tie the .D1 pin to
+   Logic0; tie the clock net to be forwarded to .C0; tie the inverted clock to
+   .C1. This is normally an ERROR but the CLOCK_DEDICATED_ROUTE constraint was
+   applied on COMP.PIN <pll_1/clkout3_buf.O> allowing your design to continue.
+   This constraint disables all clock placer rules related to the specified
+   COMP.PIN.
+WARNING:Place:1137 - This design is not guaranteed to be routable! This design
+   contains a global buffer instance, <pll_1/clkout3_buf>, driving the net,
+   <sdram_clock_o_OBUF>, that is driving the following (first 30) non-clock load
+   pins.
+   < PIN: sdram_clock_o.O; >
+   This is not a recommended design practice in Spartan-6 due to limitations in
+   the global routing that may cause excessive delay, skew or unroutable
+   situations.  It is recommended to only use a BUFG resource to drive clock
+   loads. Please pay extra attention to the timing and routing of this path to
+   ensure the design goals are met. This is normally an ERROR but the
+   CLOCK_DEDICATED_ROUTE constraint was applied on COMP.PIN
+   <pll_1/clkout3_buf.O> allowing your design to continue. This constraint
+   disables all clock placer rules related to the specified COMP.PIN.
+Phase 2.7  Design Feasibility Check (Checksum:fdc77b7b) REAL time: 1 mins 13 secs 
+
+Phase 3.31  Local Placement Optimization
+Phase 3.31  Local Placement Optimization (Checksum:fdc77b7b) REAL time: 1 mins 13 secs 
+
+Phase 4.2  Initial Placement for Architecture Specific Features
+
+Phase 4.2  Initial Placement for Architecture Specific Features
+(Checksum:927db71a) REAL time: 1 mins 37 secs 
+
+Phase 5.36  Local Placement Optimization
+Phase 5.36  Local Placement Optimization (Checksum:927db71a) REAL time: 1 mins 37 secs 
+
+Phase 6.30  Global Clock Region Assignment
+Phase 6.30  Global Clock Region Assignment (Checksum:927db71a) REAL time: 1 mins 37 secs 
+
+Phase 7.3  Local Placement Optimization
+
+Phase 7.3  Local Placement Optimization (Checksum:4cbf2f8f) REAL time: 1 mins 38 secs 
+
+Phase 8.5  Local Placement Optimization
+Phase 8.5  Local Placement Optimization (Checksum:4cbf2f8f) REAL time: 1 mins 38 secs 
+
+Phase 9.8  Global Placement
+....................................
+...................................................................................
+....................................................................................................................
+....................................................................................................................
+.................................................
+Phase 9.8  Global Placement (Checksum:d21420c2) REAL time: 3 mins 48 secs 
+
+Phase 10.5  Local Placement Optimization
+Phase 10.5  Local Placement Optimization (Checksum:d21420c2) REAL time: 3 mins 49 secs 
+
+Phase 11.18  Placement Optimization
+Phase 11.18  Placement Optimization (Checksum:95122be9) REAL time: 4 mins 28 secs 
+
+Phase 12.5  Local Placement Optimization
+Phase 12.5  Local Placement Optimization (Checksum:95122be9) REAL time: 4 mins 29 secs 
+
+Phase 13.34  Placement Validation
+Phase 13.34  Placement Validation (Checksum:4159cd9b) REAL time: 4 mins 29 secs 
+
+Total REAL time to Placer completion: 4 mins 30 secs 
+Total CPU  time to Placer completion: 4 mins 26 secs 
+Running post-placement packing...
+Writing output files...
+WARNING:PhysDesignRules:372 - Gated clock. Clock net reset_s is sourced by a
+   combinatorial pin. This is not good design practice. Use the CE pin to
+   control the loading of data into the flip-flop.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net
+   the_msx/exp3/sltsl_n_i_ffff_s_OR_229_o is sourced by a combinatorial pin.
+   This is not good design practice. Use the CE pin to control the loading of
+   data into the flip-flop.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net
+   the_msx/exp3/reset_i_GND_67_o_AND_337_o is sourced by a combinatorial pin.
+   This is not good design practice. Use the CE pin to control the loading of
+   data into the flip-flop.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net
+   the_msx/exp1/sltsl_n_i_ffff_s_OR_229_o is sourced by a combinatorial pin.
+   This is not good design practice. Use the CE pin to control the loading of
+   data into the flip-flop.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net the_msx/psg/busctrl_we_s is
+   sourced by a combinatorial pin. This is not good design practice. Use the CE
+   pin to control the loading of data into the flip-flop.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net
+   the_msx/swiop/clock_cpu_i_inv is sourced by a combinatorial pin. This is not
+   good design practice. Use the CE pin to control the loading of data into the
+   flip-flop.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net clks/clock_out1_s is
+   sourced by a combinatorial pin. This is not good design practice. Use the CE
+   pin to control the loading of data into the flip-flop.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net
+   the_msx/vdp/hor_vert_b/reset_i_first_line_s[2]_AND_120_o is sourced by a
+   combinatorial pin. This is not good design practice. Use the CE pin to
+   control the loading of data into the flip-flop.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net
+   the_msx/vdp/hor_vert_b/reset_i_first_line_s[2]_AND_121_o is sourced by a
+   combinatorial pin. This is not good design practice. Use the CE pin to
+   control the loading of data into the flip-flop.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net the_msx/pio/wr_cs_s is
+   sourced by a combinatorial pin. This is not good design practice. Use the CE
+   pin to control the loading of data into the flip-flop.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net por_clock_s is sourced by a
+   combinatorial pin. This is not good design practice. Use the CE pin to
+   control the loading of data into the flip-flop.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net
+   the_msx/psg/Mram_busctrl_addr_s is sourced by a combinatorial pin. This is
+   not good design practice. Use the CE pin to control the loading of data into
+   the flip-flop.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net midi/port1_w_s is sourced
+   by a combinatorial pin. This is not good design practice. Use the CE pin to
+   control the loading of data into the flip-flop.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net
+   keyb/ps2_port/sigclkheld_enable_i_AND_701_o is sourced by a combinatorial
+   pin. This is not good design practice. Use the CE pin to control the loading
+   of data into the flip-flop.
+WARNING:PhysDesignRules:367 - The signal
+   <jt51/jt51_inst/u_mmr/u_reg/Mram_reg_ch4_RAMD_D1_O> is incomplete. The signal
+   does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <the_msx/cpu/u0/Regs/Mram_RegsL11_RAMD_D1_O> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <the_msx/cpu/u0/Regs/Mram_RegsH11_RAMD_D1_O> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <jt51/jt51_inst/u_mmr/u_reg/Mram_reg_ch2_RAMD_D1_O> is incomplete. The signal
+   does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <jt51/jt51_inst/u_mmr/u_reg/Mram_reg_ch3_RAMD_D1_O> is incomplete. The signal
+   does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <jt51/jt51_inst/u_mmr/u_reg/Mram_reg_ch1_RAMD_D1_O> is incomplete. The signal
+   does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <the_msx/swiop/ps2fifo/Mram_memory_v1_RAMD_D1_O> is incomplete. The signal
+   does not drive any load pins in the design.
+WARNING:PhysDesignRules:2410 - This design is using one or more 9K Block RAMs
+   (RAMB8BWER).  9K Block RAM initialization data, both user defined and
+   default, may be incorrect and should not be used.  For more information,
+   please reference Xilinx Answer Record 39999.
+
+Design Summary
+--------------
+
+Design Summary:
+Number of errors:      0
+Number of warnings:   25
+Slice Logic Utilization:
+  Number of Slice Registers:                 4,062 out of  18,224   22%
+    Number used as Flip Flops:               3,964
+    Number used as Latches:                      6
+    Number used as Latch-thrus:                  0
+    Number used as AND/OR logics:               92
+  Number of Slice LUTs:                      6,617 out of   9,112   72%
+    Number used as logic:                    6,405 out of   9,112   70%
+      Number using O6 output only:           4,625
+      Number using O5 output only:             308
+      Number using O5 and O6:                1,472
+      Number used as ROM:                        0
+    Number used as Memory:                     166 out of   2,176    7%
+      Number used as Dual Port RAM:             60
+        Number using O6 output only:            16
+        Number using O5 output only:             0
+        Number using O5 and O6:                 44
+      Number used as Single Port RAM:            4
+        Number using O6 output only:             4
+        Number using O5 output only:             0
+        Number using O5 and O6:                  0
+      Number used as Shift Register:           102
+        Number using O6 output only:            49
+        Number using O5 output only:             0
+        Number using O5 and O6:                 53
+    Number used exclusively as route-thrus:     46
+      Number with same-slice register load:     18
+      Number with same-slice carry load:        28
+      Number with other load:                    0
+
+Slice Logic Distribution:
+  Number of occupied Slices:                 2,146 out of   2,278   94%
+  Number of MUXCYs used:                     1,616 out of   4,556   35%
+  Number of LUT Flip Flop pairs used:        6,971
+    Number with an unused Flip Flop:         3,374 out of   6,971   48%
+    Number with an unused LUT:                 354 out of   6,971    5%
+    Number of fully used LUT-FF pairs:       3,243 out of   6,971   46%
+    Number of unique control sets:             300
+    Number of slice register sites lost
+      to control set restrictions:             935 out of  18,224    5%
+
+  A LUT Flip Flop pair for this architecture represents one LUT paired with
+  one Flip Flop within a slice.  A control set is a unique combination of
+  clock, reset, set, and enable signals for a registered element.
+  The Slice Logic Distribution report is not meaningful if the design is
+  over-mapped for a non-slice resource or if Placement fails.
+
+IO Utilization:
+  Number of bonded IOBs:                        79 out of     186   42%
+    Number of LOCed IOBs:                       79 out of      79  100%
+
+Specific Feature Utilization:
+  Number of RAMB16BWERs:                        13 out of      32   40%
+  Number of RAMB8BWERs:                         17 out of      64   26%
+  Number of BUFIO2/BUFIO2_2CLKs:                 1 out of      32    3%
+    Number used as BUFIO2s:                      1
+    Number used as BUFIO2_2CLKs:                 0
+  Number of BUFIO2FB/BUFIO2FB_2CLKs:             1 out of      32    3%
+    Number used as BUFIO2FBs:                    1
+    Number used as BUFIO2FB_2CLKs:               0
+  Number of BUFG/BUFGMUXs:                       8 out of      16   50%
+    Number used as BUFGs:                        8
+    Number used as BUFGMUX:                      0
+  Number of DCM/DCM_CLKGENs:                     0 out of       4    0%
+  Number of ILOGIC2/ISERDES2s:                   0 out of     248    0%
+  Number of IODELAY2/IODRP2/IODRP2_MCBs:         0 out of     248    0%
+  Number of OLOGIC2/OSERDES2s:                   0 out of     248    0%
+  Number of BSCANs:                              0 out of       4    0%
+  Number of BUFHs:                               0 out of     128    0%
+  Number of BUFPLLs:                             0 out of       8    0%
+  Number of BUFPLL_MCBs:                         0 out of       4    0%
+  Number of DSP48A1s:                           11 out of      32   34%
+  Number of ICAPs:                               1 out of       1  100%
+  Number of MCBs:                                0 out of       2    0%
+  Number of PCILOGICSEs:                         0 out of       2    0%
+  Number of PLL_ADVs:                            1 out of       2   50%
+  Number of PMVs:                                0 out of       1    0%
+  Number of STARTUPs:                            0 out of       1    0%
+  Number of SUSPEND_SYNCs:                       0 out of       1    0%
+
+Average Fanout of Non-Clock Nets:                3.84
+
+Peak Memory Usage:  4914 MB
+Total REAL time to MAP completion:  4 mins 55 secs 
+Total CPU time to MAP completion:   4 mins 50 secs 
+
+Mapping completed.
+See MAP report file "qmxc6slx16_top_map.mrp" for details.

@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=D:\Users\benit\Downloads\UnAmiga\ZXDos\Cores\msx1fpga-1.3\synth\qmxc6slx16\qmxc6slx16_top.ncd
+OUTFILE=D:\Users\benit\Downloads\UnAmiga\ZXDos\Cores\msx1fpga-1.3\synth\qmxc6slx16\qmxc6slx16_top.bit
+FAMILY=Spartan6
+PART=xc6slx16-2ftg256
+WORKINGDIR=D:\Users\benit\Downloads\UnAmiga\ZXDos\Cores\msx1fpga-1.3\synth\qmxc6slx16
+LICENSE=WebPack
+USER_INFO=__0_0_0
